@@ -18,6 +18,13 @@
     "Async"
   ],
   "prefer-stable": true,
+  "repositories": [
+    {
+      "name": "prooph/event-store",
+      "type": "vcs",
+      "url": "https://github.com/joemugen/event-store"
+    }
+  ],
   "require": {
     "php": "^7.4|^8.0",
     "ext-json": "*",
@@ -27,7 +34,7 @@
     "amphp/file": "^1.0.0",
     "amphp/socket": "^1.1.1",
     "google/protobuf": "^3.11.4",
-    "prooph/event-store": "dev-master",
+    "prooph/event-store": "dev-feature/php8-support",
     "psr/log": "^1.1.3"
   },
   "require-dev": {
